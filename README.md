@@ -259,6 +259,10 @@ pytest tests/ -v
 
 See [`monitoring_plan.md`](monitoring_plan.md) for drift tracking, retraining triggers, and DO/DON'T guidelines.
 
+## Public Repository
+
+https://github.com/Keshav-Verma-06/d2c-churn-part4-api
+
 ## Quick Validation (curl)
 
 ```bash
