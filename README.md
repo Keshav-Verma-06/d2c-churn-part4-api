@@ -1,3 +1,11 @@
+(Part 1)	`https://github.com/Keshav-Verma-06/d2c-churn-part1-eda`
+(Part 2)	`https://github.com/Keshav-Verma-06/d2c-churn-part2-rfm`
+(Part 3)	`https://github.com/Keshav-Verma-06/d2c-churn-part3-model`
+(Part 4)	`https://github.com/Keshav-Verma-06/d2c-churn-part4-api`
+
+<img width="391" height="85" alt="image" src="https://github.com/user-attachments/assets/396c0f0b-db45-455b-a1db-7222d92b0dc8" />
+
+
 ## API Documentation
 
 Once the server is running, you can access the interactive API documentation:
@@ -17,13 +25,6 @@ FastAPI service that serves the LightGBM churn model trained in **Part 3**, usin
 
 <img width="2148" height="8192" alt="Churn Prediction Model-2026-06-17-043404" src="https://github.com/user-attachments/assets/c4f1e8d1-25cc-4d99-8571-2a97ab41887e" />
 
-
-Part	Command to Run	Expected Result
-**Part 1**	`jupyter execute eda_audit.ipynb`	Notebook runs top-to-bottom, charts regenerate
-**Part 2**	`python -c "import pandas as pd; df=pd.read_csv('segments.csv'); print(df.shape)"`	Outputs `(2400, X)` with required columns
-**Part 3**	`python -c "import joblib; m=joblib.load('model.pkl'); print(type(m))"`	Prints model type (e.g., `<class 'lightgbm.sklearn.LGBMClassifier'>`)
-**Part 4**	`pytest tests/ -v` then `uvicorn app.main:app --port 8000` + curl test	4/4 tests pass; `/predict` returns dynamic JSON with all 4 fields
-<img width="798" height="106" alt="image" src="https://github.com/user-attachments/assets/1ce34e12-bb93-42e5-93f7-a826aaef193b" />
 
 
 ## Project Structure
