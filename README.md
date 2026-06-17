@@ -15,7 +15,8 @@ The Swagger UI allows you to:
 
 FastAPI service that serves the LightGBM churn model trained in **Part 3**, using **pre-snapshot features only** (snapshot date **2025-09-30**). Predictions estimate whether a customer will churn in the next 60 days (no purchase from 2025-10-01 to 2025-11-29).
 
-<img width="2148" height="8192" alt="image" src="https://github.com/user-attachments/assets/2df67ef6-af05-4c75-97b5-d187ac2e0c95" />
+<img width="2148" height="8192" alt="Churn Prediction Model-2026-06-17-043404" src="https://github.com/user-attachments/assets/c4f1e8d1-25cc-4d99-8571-2a97ab41887e" />
+
 
 Part	Command to Run	Expected Result
 **Part 1**	`jupyter execute eda_audit.ipynb`	Notebook runs top-to-bottom, charts regenerate
